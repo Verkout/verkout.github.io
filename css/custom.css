@@ -4,10 +4,10 @@
   color: #3d3d3d;
 }
 
-html {
-  padding: 2em;
+body {
+  padding-top: 3em;
 }
 
 .padded {
-  padding: 2em;
+  padding: 1em 0em 2em 0em;
 }
