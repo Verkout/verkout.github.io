@@ -1,0 +1,13 @@
+* {
+  text-align: center;
+  background-color: #f2d308;
+  color: #3d3d3d;
+}
+
+html {
+  padding: 2em;
+}
+
+.padded {
+  padding: 2em;
+}
