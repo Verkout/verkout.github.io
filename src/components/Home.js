@@ -1,7 +1,4 @@
 import React from "react";
-import Interactive from "react-interactive";
-import { Link } from "react-router-dom";
-import { Code } from "../styles/style";
 import s from "../styles/home.style";
 
 export default function Home() {
@@ -17,7 +14,6 @@ export default function Home() {
                   <br />
                   <span class="subtitle">is a fitness app.</span>
                 </h2>
-                {/* <h3>The video workouts of Instagram.</h3> */}
                 <h5 class="constrained-header bullets">
                   <br />
                   We're in stealth mode, for now.
