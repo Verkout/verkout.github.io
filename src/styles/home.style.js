@@ -2,8 +2,8 @@ import style from "./style";
 
 const s = Object.create(style);
 
-s.pageLinkContainer = {
-  margin: "1vh 0",
-};
+// s.root = {
+//   backgroundColor: "#f2d308",
+// };
 
 export default s;
