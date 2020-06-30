@@ -35,6 +35,7 @@ export default function WorkoutPage(props) {
 
   var pageTitle = null;
   var workoutName = null;
+  var workoutImage = null;
   var workoutCreator = null;
   var workoutDisplay = null;
   if (workout) {
@@ -51,14 +52,14 @@ export default function WorkoutPage(props) {
     };
 
     workoutName = workout.name;
-    pageTitle =
-      "Verkout: " + workout.name + " from @" + workout.author.instagramHandle;
+    pageTitle = workout.author.instagramHandle + "'s " + workout.name;
     workoutCreator =
       "@" +
       workout.author.instagramHandle +
       " (" +
       workout.author.instagramName +
       ")";
+    workoutImage = workout.thumbnail;
     workoutDisplay = (
       <div className="container">
         <div className="row">
@@ -81,6 +82,8 @@ export default function WorkoutPage(props) {
         <title>{pageTitle}</title>
         <meta name="description" content={workoutName} />
         <meta name="author" content={workoutCreator} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:image" content={workoutImage} />
       </Helmet>
 
       {workoutDisplay}
