@@ -1,7 +1,8 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import s from "../styles/home.style";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div style={s.root}>
       <div class="section hero">
