@@ -38,6 +38,7 @@ export default function WorkoutPage(props) {
   var workoutImage = null;
   var workoutCreator = null;
   var workoutDisplay = null;
+  var creatorImage = null;
   if (workout) {
     const videoJsOptions = {
       autoplay: true,
@@ -60,6 +61,7 @@ export default function WorkoutPage(props) {
       workout.author.instagramName +
       ")";
     workoutImage = workout.thumbnail;
+    creatorImage = workout.author.profileImageUrl;
     workoutDisplay = (
       <div className="container">
         <div className="row">
@@ -83,7 +85,7 @@ export default function WorkoutPage(props) {
         <meta name="description" content={workoutName} />
         <meta name="author" content={workoutCreator} />
         <meta property="og:title" content={pageTitle} />
-        <meta property="og:image" content={workoutImage} />
+        <meta property="og:image" content={creatorImage} />
       </Helmet>
 
       {workoutDisplay}
