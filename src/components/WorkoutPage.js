@@ -39,6 +39,7 @@ export default function WorkoutPage(props) {
   var workoutCreator = null;
   var workoutDisplay = null;
   var creatorImage = null;
+  var workoutUrl = null;
   if (workout) {
     const videoJsOptions = {
       autoplay: true,
@@ -53,6 +54,7 @@ export default function WorkoutPage(props) {
     };
 
     workoutName = workout.name;
+    workoutUrl = "https://verkout.com/workouts/" + workout.id;
     pageTitle = workout.author.instagramHandle + "'s " + workout.name;
     workoutCreator =
       "@" +
@@ -86,6 +88,8 @@ export default function WorkoutPage(props) {
         <meta name="author" content={workoutCreator} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:image" content={creatorImage} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={workoutUrl} />
       </Helmet>
 
       {workoutDisplay}
