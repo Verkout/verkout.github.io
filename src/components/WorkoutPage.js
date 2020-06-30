@@ -82,7 +82,7 @@ export default function WorkoutPage(props) {
   return (
     <div style={s.root}>
       <Helmet>
-        <html lang="en" />
+        <html lang="en" prefix="og: http://ogp.me/ns#" />
         <title>{pageTitle}</title>
         <meta name="description" content={workoutName} />
         <meta name="author" content={workoutCreator} />
