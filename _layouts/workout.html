@@ -7,8 +7,16 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8" />
     <title>{{ page.workout.author.instagramHandle }}'s {{ page.workout.name }}</title>
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="{{page.workout.name}} from @{{page.workout.author.instagramHandle}}: {{workout.description}}" />
+    <meta name="author" content="@{{ page.workout.author.instagramHandle }} ({{ page.workout.author.profileDescription}})" />
+    <meta property="og:title" content="{{page.workout.name}} from @{{page.workout.author.instagramHandle}}">
+    <meta property="og:description" content="{{page.workout.description}}">
+    <meta property="og:image" content="{{page.workout.thumbnail}}">
+    <meta property="og:url" content="https://verkout.com/workouts/{{page.workout.id}}">
+    <meta name="twitter:title" content="{{page.workout.name}} from @{{page.workout.author.instagramHandle}}">
+    <meta name="twitter:description" content="{{page.workout.description}}">
+    <meta name="twitter:image" content="{{page.workout.thumbnail}}">
+    <meta name="twitter:card" content="summary_large_image">
   
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -26,20 +34,53 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="/assets/css/normalize.css" />
     <link rel="stylesheet" href="/assets/css/skeleton.css" />
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />    
+    <link rel="stylesheet" href="https://vjs.zencdn.net/7.8.3/video-js.min.css" />
   
     <!-- Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"></script> -->
   
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png" />
   </head>
   <body id="workout">
-      <div class="container">
-      <section>
-        <h2>{{ page.workout.name }}</h2>
-      </section>
+      <div class="container">        
+        <section class="clear">
+          <video
+            id="workout_video_player"
+            class="video-js vjs-default-skin vjs-fluid"
+            muted="muted"
+            
+            autoplay
+            loop
+            data-setup='{ "controls": false, "autoplay": true, "loop": true, "poster": "{{page.workout.author.profileImageUrl}}"}'
+          >
+            <source src="{{ page.workout.video }}" type="video/mp4" />    
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+        </section>
+        <section class="header">
+          <h4>{{page.workout.author.instagramName}}</h4>          
+        </section>
+        <section class="description">
+          <h2>{{ page.workout.name }}</h2>
+          <h4>@{{ page.workout.author.instagramHandle }}</h4>
+          <p>{{page.workout.description}}</p>
+        </section>
     </div>
+
+    <script src="https://vjs.zencdn.net/7.8.3/video.js"></script>    
   </body>
+  
 </html>

@@ -10,11 +10,24 @@ $colorLighterGold: #fde33d;
 $colorLightestGold: #ffeb67;
 $colorDarkerGold: #bea400;
 $colorDarkestGold: #958100;
+$colorTranslucentBlackLight: rgba(0, 0, 0, 0.3);
+$colorTranslucentBlackMedium: rgba(0, 0, 0, 0.5);
+$colorTranslucentBlackHeavy: rgba(0, 0, 0, 0.7);
+$colorTranslucentWhiteLight: rgba(255, 255, 255, 0.3);
+$colorTranslucentWhiteMedium: rgba(255, 255, 255, 0.5);
+$colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
 
-body {
+#home {
+  background: $colorGold;
+  color: $colorCharcoal;
 }
 
-.header h2 {
+#home section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#home .header h2 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-weight: bold;
@@ -28,17 +41,28 @@ body {
   width: 3rem;
 }
 
-#home {
-  background: $colorGold;
-  color: $colorCharcoal;
-}
-
-#home section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 #workout {
   background: $colorBlack;
-  color: $colorCharcoal;
+  color: $colorLightGray;
+}
+
+#workout section {
+  background-color: $colorTranslucentBlackLight;
+  color: $colorTranslucentWhiteHeavy;
+}
+
+#workout section.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#workout section.description {
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  left: 0;
 }
