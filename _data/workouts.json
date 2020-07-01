@@ -1,0 +1,20 @@
+[
+  {
+    "id": "23",
+    "workout": {
+      "name": "MIGHTY HIIT/ABS",
+      "author": {
+        "instagramHandle": "kimfrench87"
+      }
+    }
+  },
+  {
+    "id": "22",
+    "workout": {
+      "name": "BRICKBUILT WEEKEND CORE WORKOUT!",
+      "author": {
+        "instagramHandle": "brickbuiltstrength"
+      }
+    }
+  }
+]

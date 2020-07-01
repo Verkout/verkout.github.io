@@ -1,0 +1,44 @@
+$colorGold: #f2d308;
+$colorBlack: #000000;
+$colorCharcoal: #3d3d3d;
+$colorAlmostBlack: #111111;
+$colorWhite: #ffffff;
+$colorLightGray: #727272;
+$colorLighterGray: #dddddd;
+$colorLightestGray: #eeeeee;
+$colorLighterGold: #fde33d;
+$colorLightestGold: #ffeb67;
+$colorDarkerGold: #bea400;
+$colorDarkestGold: #958100;
+
+body {
+}
+
+.header h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.centered {
+  text-align: center;
+}
+
+.mediumWidth {
+  width: 3rem;
+}
+
+#home {
+  background: $colorGold;
+  color: $colorCharcoal;
+}
+
+#home section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#workout {
+  background: $colorBlack;
+  color: $colorCharcoal;
+}

@@ -1,0 +1,21 @@
+url: "https://verkout.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Verkout: the workouts of Instagram" # the name of your site, e.g. ACME Corp.
+
+plugins:
+  - jekyll-datapage-generator
+
+page_gen-dirs: true
+
+page_gen:
+  - data: "workouts"
+    template: "workout"
+    dir: "workouts"
+    name: "id"
+    index_files: false
+    # name_expr: [a Ruby expression to generate the filename (alternative to name)]
+    # title: [field used to generate the page title]
+    # title_expr: [a Ruby expression to generate the filename (alternative to title)]
+    # extension: [extension used to generate the filename]
+    # filter: [property to filter data records by]
+    # filter_condition: [a Ruby expression to filter data]

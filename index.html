@@ -1,181 +1,65 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Basic Page Needs
+---
+layout: default
+title: "Verkout: the workouts of Instagram"
+---
+
+<head>
+  <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Verkout: the workouts of Instagram</title>
-    <meta name="description" content="Verkout: the workouts of Instagram" />
-    <meta name="author" content="Verkout" />
+  <meta charset="utf-8" />
+  <title>{{ title }}</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-    <!-- Mobile Specific Metas
+  <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- FONT
+  <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link
-      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
-      rel="stylesheet"
-      type="text/css"
-    />
+  <link
+    href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+    rel="stylesheet"
+    type="text/css"
+  />
 
-    <style>
-      /* html,
-      body,
-      div,
-      span,
-      a,
-      p,
-      ul,
-      li,
-      h1,
-      code,
-      nav {
-        margin: 0;
-        border: 0;
-        padding: 0;
-        box-sizing: inherit;
-        font: inherit;
-        text-decoration: inherit;
-        text-align: inherit;
-        color: inherit;
-        background: transparent;
-      } */
-      /*pass window height (w/o scroll bars) down to react app, note can't use vh becasue that
-      includes scroll bars and mobile browser footer, etc so doesn't give viewable area*/
-      /* html,
-      body {
-        height: 100%;
-      }
-      html {
-        background-color: rgb(0, 120, 0);
-      }
-      #root {
-        background-color: #f0f0f0;
-        min-height: 100%;
-      } */
-
-      /*required for IE/Edge to be compatible with left:50vw & transform:translate(-50%, 0),
-      otherwise there is a phantom div on the right side of the screen (from the left:50vw),
-      that the window will scroll to. Note the left:50vw and transform is used to center content
-      horizaontally based on vw to prevent content jump when vertical scroll bar show/hide.*/
-      body {
-        overflow-x: hidden;
-      }
-
-      /* Verkout site styles */
-
-      html,
-      body {
-        height: 100%;
-        background-color: #000;
-      }
-
-      #root {
-        background-color: #000;
-        color: rgba(242, 211, 8, 0.5);
-        min-height: 100%;
-        text-align: center;
-      }
-
-      .padded {
-        padding: 4rem 0rem 1rem 0rem;
-      }
-
-      .centered-box {
-        margin-left: auto;
-        margin-right: auto;
-        width: 32em;
-        padding-top: 3em;
-      }
-
-      .constrained-header {
-        text-align: left;
-      }
-
-      .subtitle {
-        font-size: 3rem;
-      }
-
-      .bullets {
-        font-size: 2.5rem;
-      }
-
-      h2 {
-        text-align: left;
-        color: #f2d308;
-      }
-
-      .icon {
-        background-color: #f2d308;
-        margin: 0 1em 0 1em;
-        border: 1px solid #bea400;
-        border-radius: 1em;
-        padding: 0.15em;
-      }
-
-      .video-js {
-        padding-top: 56.25%;
-      }
-    </style>
-
-    <!-- CSS
+  <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/css/skeleton.css" />
+  <link rel="stylesheet" href="/assets/css/normalize.css" />
+  <link rel="stylesheet" href="/assets/css/skeleton.css" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
 
-    <!-- start favicon -->
-    <link rel="icon" type="image/png" href="/img/favicon.png" />
-    <!-- end favicon -->
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <!-- start video player -->
-    <link href="//vjs.zencdn.net/7.8.2/video-js.min.css" rel="stylesheet" />
-    <!-- <script src="//vjs.zencdn.net/7.8.2/video.min.js"></script> -->
-    <!-- end video player -->
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+</head>
+<body id="home">
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <section class="header">
+      <h2>Verkout</h2>
+      <h4>is a fitness app.</h4>
+    </section>
 
-    <!-- Start Single Page Apps for GitHub Pages -->
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // https://github.com/rafrex/spa-github-pages
-      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-      // ----------------------------------------------------------------------
-      // This script checks to see if a redirect is present in the query string
-      // and converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
-      (function (l) {
-        if (l.search) {
-          var q = {};
-          l.search
-            .slice(1)
-            .split("&")
-            .forEach(function (v) {
-              var a = v.split("=");
-              q[a[0]] = a.slice(1).join("=").replace(/~and~/g, "&");
-            });
-          if (q.p !== undefined) {
-            window.history.replaceState(
-              null,
-              null,
-              l.pathname.slice(0, -1) +
-                (q.p || "") +
-                (q.q ? "?" + q.q : "") +
-                l.hash
-            );
-          }
-        }
-      })(window.location);
-    </script>
-    <!-- End SPA for Github Pages -->
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- single page app in bundle.js -->
-    <script src="/build/bundle.js"></script>
-  </body>
-</html>
+    <section class="main">
+      <h4>We're in stealth mode, for now.</h4>
+    </section>
+
+    <section class="footer centered">
+      <h4>- coming soon -</h4>
+      <p>
+        Please hold. Our small team in Austin, TX is building something great.
+      </p>
+      <div class="social">
+        <a href="https://instagram.com/verkoutapp" target=_"><img class="mediumWidth" src="assets/images/icon-ig.png" /></a>
+        <a href="https://twitter.com/verkoutapp" target=_"><img class="mediumWidth" src="assets/images/icon-twitter.png" /></a>
+      </div>
+    </section>
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
