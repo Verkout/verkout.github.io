@@ -1,19 +1,2628 @@
 [
   {
-    "id": "23",
+    "id": 4,
     "workout": {
-      "name": "MIGHTY HIIT/ABS",
+      "draftId": "33F40F06-2007-4C29-A705-E8BFF5CA17EB",
+      "id": 4,
+      "name": "Monday Upper Body Blaster",
+      "description": "A bunch of exercises in a card-type workout.",
+      "duration": 1200,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/33f40f06-2007-4c29-a705-e8bff5ca17eb-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "cards",
+            "recoverySeconds": null,
+            "count": 52,
+            "duration": null,
+            "cardValueAce": 11,
+            "cardValueJack": 10,
+            "cardValueQueen": 10,
+            "cardValueKing": 10,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Exercise 1",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/33f40f06-2007-4c29-a705-e8bff5ca17eb-exercise-0-0-45297-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": null,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Exercise 2",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/33f40f06-2007-4c29-a705-e8bff5ca17eb-exercise-0-1-82848-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": null,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Exercise 3",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/33f40f06-2007-4c29-a705-e8bff5ca17eb-exercise-0-2-44164-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": null,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Exercise 4",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/33f40f06-2007-4c29-a705-e8bff5ca17eb-exercise-0-3-75731-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": null,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/33f40f06-2007-4c29-a705-e8bff5ca17eb-composite-thumbnail.gif",
+      "equipment": "common",
       "author": {
-        "instagramHandle": "kimfrench87"
+        "id": 4,
+        "name": "Paul Sklar",
+        "instagramUserId": "3231385713",
+        "instagramHandle": "paulsklarxfit",
+        "instagramName": "Paul Sklar",
+        "profileDescription": "Professional Trainer \\nFormer World Ranked Pro Duathlete\\nOwner @prescriptive.fitness\\n@sandysklarxfit \\n⬇️SUBSCRIBE to PaulSklarXFit365 ⬇️",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/3231385713.jpg",
+        "profileVideo": null,
+        "verified": true,
+        "endorsements": []
       }
     }
   },
   {
-    "id": "22",
+    "id": 6,
     "workout": {
-      "name": "BRICKBUILT WEEKEND CORE WORKOUT!",
+      "draftId": "F47E8872-F264-4958-A46A-DB5B0F38B9DE",
+      "id": 6,
+      "name": "Full Body HIIT",
+      "description": "This mornings IG LIVE went a little something like this. The last 5 minutes were CHALLENGING!\n\n",
+      "duration": 1800,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/f47e8872-f264-4958-a46a-db5b0f38b9de-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 60,
+            "count": 5,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Lateral Jumps",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/f47e8872-f264-4958-a46a-db5b0f38b9de-exercise-0-0-86356-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": "total",
+                "duration": 40,
+                "distance": null,
+                "context": "total",
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Plank Jack + Shoulder Tap",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/f47e8872-f264-4958-a46a-db5b0f38b9de-exercise-0-1-83588-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              }
+            ]
+          },
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 60,
+            "count": 5,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Lateral Jump Lunge",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/f47e8872-f264-4958-a46a-db5b0f38b9de-exercise-1-0-31344-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Bear Crawl",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/f47e8872-f264-4958-a46a-db5b0f38b9de-exercise-1-1-55779-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              }
+            ]
+          },
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 60,
+            "count": 5,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Squat + Heel Tap",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/f47e8872-f264-4958-a46a-db5b0f38b9de-exercise-2-0-35977-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Frogger Pushup",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/f47e8872-f264-4958-a46a-db5b0f38b9de-exercise-2-1-79446-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/f47e8872-f264-4958-a46a-db5b0f38b9de-composite-thumbnail.gif",
+      "equipment": "body",
       "author": {
-        "instagramHandle": "brickbuiltstrength"
+        "id": 1,
+        "name": "SYDNEY TORABI | HOME WORKOUTS",
+        "instagramUserId": "2110625039",
+        "instagramHandle": "spinsyddy",
+        "instagramName": "SYDNEY TORABI | HOME WORKOUTS",
+        "profileDescription": "IG LIVE #homeworkout M/W/F @ 6:30AM CST\\nNutritionist + CPT 🇮🇷 🇺🇸\\nAthlete @underarmourwomen\\nCannabiz @restartcbd \\nYouTube Sydney Torabi [SUBSCRIBE]",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/2110625039.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 8,
+    "workout": {
+      "draftId": "C8585FAA-3037-4FBF-A023-51A912ECE18F",
+      "id": 8,
+      "name": "FULL BODY work-every-muscle",
+      "description": "We’ve got 6 movements hitting the lower body, upper body + core = a happy mind and lots of feel good when it’s all done.",
+      "duration": 2700,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/c8585faa-3037-4fbf-a023-51a912ece18f-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 60,
+            "count": 3,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Chameleon Burpees",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/c8585faa-3037-4fbf-a023-51a912ece18f-exercise-0-0-52728-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Unilateral RB Thrusters",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/c8585faa-3037-4fbf-a023-51a912ece18f-exercise-0-1-39086-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 8,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Triceps Extension to Crab Reach",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/c8585faa-3037-4fbf-a023-51a912ece18f-exercise-0-2-84404-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 14,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Kneel Squat to Step Up Hold",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/c8585faa-3037-4fbf-a023-51a912ece18f-exercise-0-3-40435-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 8,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Rotating Lateral Bear Walks",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/c8585faa-3037-4fbf-a023-51a912ece18f-exercise-0-4-34092-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 30,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Unilateral Curl to OHP",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/c8585faa-3037-4fbf-a023-51a912ece18f-exercise-0-5-96227-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/c8585faa-3037-4fbf-a023-51a912ece18f-composite-thumbnail.gif",
+      "equipment": "common",
+      "author": {
+        "id": 5,
+        "name": "Natacha Oceane",
+        "instagramUserId": "1967316049",
+        "instagramHandle": "natacha.oceane",
+        "instagramName": "Natacha Oceane",
+        "profileDescription": "👩‍🎓 Biophysicist @ UCL 🧬\\n🏃‍♀️ IronMan \u0026 Sprinter\\n🦈 Gymshark 🎥 Translating science on YouTube\\nMy programmes approved by GB Olympic expert ⬇️",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/1967316049.jpg",
+        "profileVideo": null,
+        "verified": true,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 9,
+    "workout": {
+      "draftId": "2562BD2D-4E8C-4F93-AFAB-813BB4E180DF",
+      "id": 9,
+      "name": "Kettlebell Flow",
+      "description": "Looking for some Cardio, Mobility, and Muscle all wrapped up into one? ⁣Try this Kettlebell Flow by itself or at the end of any workout🔥",
+      "duration": 900,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/2562bd2d-4e8c-4f93-afab-813bb4e180df-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 30,
+            "count": 8,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Squat to Burpee to Pushup",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/2562bd2d-4e8c-4f93-afab-813bb4e180df-exercise-0-0-92462-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 5,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/2562bd2d-4e8c-4f93-afab-813bb4e180df-composite-thumbnail.gif",
+      "equipment": "common",
+      "author": {
+        "id": 4,
+        "name": "Paul Sklar",
+        "instagramUserId": "3231385713",
+        "instagramHandle": "paulsklarxfit",
+        "instagramName": "Paul Sklar",
+        "profileDescription": "Professional Trainer \\nFormer World Ranked Pro Duathlete\\nOwner @prescriptive.fitness\\n@sandysklarxfit \\n⬇️SUBSCRIBE to PaulSklarXFit365 ⬇️",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/3231385713.jpg",
+        "profileVideo": null,
+        "verified": true,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 10,
+    "workout": {
+      "draftId": "8B56124D-8704-4AFB-A75A-6EB73EDD026A",
+      "id": 10,
+      "name": "Full Body Resistance Band Workout",
+      "description": "I recommend using a band with a medium/ heavy or even x-heavy resistance! ⁣\n⁣\n🎧 SOUND ON for coaching tips!\n",
+      "duration": 1800,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b56124d-8704-4afb-a75a-6eb73edd026a-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 90,
+            "count": 3,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Banded Hip Thrust",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b56124d-8704-4afb-a75a-6eb73edd026a-exercise-0-0-73852-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 15,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 25
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Single Arm Row",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b56124d-8704-4afb-a75a-6eb73edd026a-exercise-0-1-60546-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": "each",
+                "restSeconds": 25
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Alternating Reverse Lunge + OHP",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b56124d-8704-4afb-a75a-6eb73edd026a-exercise-0-2-52501-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 25
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Single Leg RDL",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b56124d-8704-4afb-a75a-6eb73edd026a-exercise-0-3-35314-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": "each",
+                "restSeconds": 25
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Banded Face Pulls",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b56124d-8704-4afb-a75a-6eb73edd026a-exercise-0-4-12618-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 15,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 25
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Banded Foot Crab Walks",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b56124d-8704-4afb-a75a-6eb73edd026a-exercise-0-5-16602-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 20,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 25
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/8b56124d-8704-4afb-a75a-6eb73edd026a-composite-thumbnail.gif",
+      "equipment": "common",
+      "author": {
+        "id": 8,
+        "name": "Tally Rye",
+        "instagramUserId": "468217408",
+        "instagramHandle": "tallyrye",
+        "instagramName": "Tally Rye",
+        "profileDescription": "EAT • TRAIN • HAPPY \\nIntuitive + Health First Fitness 💛\\n•  📚My book TRAIN HAPPY out now\\n• 🎧 @trainhappypodcast \\n• Fit \u0026 Fearless Podcast @thegirlgains",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/468217408.jpg",
+        "profileVideo": null,
+        "verified": true,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 11,
+    "workout": {
+      "draftId": "5462F41C-B458-4D35-AABF-83DB42478930",
+      "id": 11,
+      "name": "DB DT Conditioning Finisher",
+      "description": "As we continue to try and make waves with limited kit at home, I’ve spent a lot of my time doing higher rep, more conditioning style work.",
+      "duration": 1080,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/5462f41c-b458-4d35-aabf-83db42478930-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 45,
+            "count": 6,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Deadlifts",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/5462f41c-b458-4d35-aabf-83db42478930-exercise-0-0-80653-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Hang Cleans",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/5462f41c-b458-4d35-aabf-83db42478930-exercise-0-1-94912-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 9,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Shoulder to Overhead",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/5462f41c-b458-4d35-aabf-83db42478930-exercise-0-2-53835-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 6,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/5462f41c-b458-4d35-aabf-83db42478930-composite-thumbnail.gif",
+      "equipment": "common",
+      "author": {
+        "id": 9,
+        "name": "Laura ‘Biceps’",
+        "instagramUserId": "195101119",
+        "instagramHandle": "laurabiceps",
+        "instagramName": "Laura ‘Biceps’",
+        "profileDescription": "🏋🏼‍♀️ PT @foundryfit \\n📖 No1. Best-selling Author ‘LIFT YOURSELF’\\n🎙 Podcast ‘Biceps \u0026 Banter’\\n🙋🏼‍♀️ TEAM LIFTED Online Coaching\\n📱 Trainer @fiit",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/195101119.jpg",
+        "profileVideo": null,
+        "verified": true,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 12,
+    "workout": {
+      "draftId": "83C7F25B-AC73-4495-8AEB-67BEF124E230",
+      "id": 12,
+      "name": "Leg Work",
+      "description": "My legs are feelin’ pretty solid after this sequence. Quads, hammies and glutes were on 🔥\nUpper body and core got a little hit too 😉\n",
+      "duration": 1320,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/83c7f25b-ac73-4495-8aeb-67bef124e230-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 60,
+            "count": 5,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "DB Swing Variation",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/83c7f25b-ac73-4495-8aeb-67bef124e230-exercise-0-0-6552-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "RDL, Clean to Squat",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/83c7f25b-ac73-4495-8aeb-67bef124e230-exercise-0-1-15310-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Goblet Hold, Alt. Reverse Lunge",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/83c7f25b-ac73-4495-8aeb-67bef124e230-exercise-0-2-65009-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 20,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Goblet Squat Iso Hold",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/83c7f25b-ac73-4495-8aeb-67bef124e230-exercise-0-3-63893-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": null,
+                "duration": 30,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/83c7f25b-ac73-4495-8aeb-67bef124e230-composite-thumbnail.gif",
+      "equipment": "common",
+      "author": {
+        "id": 6,
+        "name": "Sandy Sklar",
+        "instagramUserId": "10933664297",
+        "instagramHandle": "sandysklarxfit",
+        "instagramName": "Sandy Sklar",
+        "profileDescription": "FITNESS Pro | FOOD Coach\\n📍OWNER of @prescriptive.fitness\\n💫 SANDY15 @optimumnutrition\\n💍 #FITMOM\\n⬇️ MY LINKS ⬇️",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/10933664297.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 13,
+    "workout": {
+      "draftId": "E8ED580D-B482-4153-AC2C-A9209A61E40C",
+      "id": 13,
+      "name": "NO EQUIPMENT HIIT",
+      "description": "Here’s a quick hiit workout that’ll get you sweaty real quick! super fun, super effective 🔥\n",
+      "duration": 2100,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/e8ed580d-b482-4153-ac2c-a9209a61e40c-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 60,
+            "count": 4,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Triple Jump Squats",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/e8ed580d-b482-4153-ac2c-a9209a61e40c-exercise-0-0-37039-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 45,
+                "distance": null,
+                "context": null,
+                "restSeconds": 15
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Shuffles to Jump Lunges",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/e8ed580d-b482-4153-ac2c-a9209a61e40c-exercise-0-1-80722-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 45,
+                "distance": null,
+                "context": null,
+                "restSeconds": 15
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Pulse Squats",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/e8ed580d-b482-4153-ac2c-a9209a61e40c-exercise-0-2-38229-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 45,
+                "distance": null,
+                "context": null,
+                "restSeconds": 15
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Jump Lunge to Squat",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/e8ed580d-b482-4153-ac2c-a9209a61e40c-exercise-0-3-92137-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 45,
+                "distance": null,
+                "context": null,
+                "restSeconds": 15
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Squat w/Twist",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/e8ed580d-b482-4153-ac2c-a9209a61e40c-exercise-0-4-84781-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 45,
+                "distance": null,
+                "context": null,
+                "restSeconds": 15
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Burpee w/Superman",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/e8ed580d-b482-4153-ac2c-a9209a61e40c-exercise-0-5-43305-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 45,
+                "distance": null,
+                "context": null,
+                "restSeconds": 15
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Bear Crawl Commandos",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/e8ed580d-b482-4153-ac2c-a9209a61e40c-exercise-0-6-14572-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 45,
+                "distance": null,
+                "context": null,
+                "restSeconds": 15
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Crunches",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/e8ed580d-b482-4153-ac2c-a9209a61e40c-exercise-0-7-73791-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 45,
+                "distance": null,
+                "context": null,
+                "restSeconds": 15
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/e8ed580d-b482-4153-ac2c-a9209a61e40c-composite-thumbnail.gif",
+      "equipment": "body",
+      "author": {
+        "id": 12,
+        "name": "Fit Moral™ | Fitness",
+        "instagramUserId": "6648540058",
+        "instagramHandle": "fitmoral",
+        "instagramName": "Fit Moral™ | Fitness",
+        "profileDescription": "👟 Sportswear Brand @deltawoos \\n📡 Advertising Agency @leadsnetwork.io\\n🍵 Smoothie Detox @tastesmoothies\\n⬇️ Shoutouts and Campaign Plannings on IG ⬇️",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/6648540058.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 14,
+    "workout": {
+      "draftId": "951A27DB-70E0-459E-B943-FABC4419FE5E",
+      "id": 14,
+      "name": "ARMS 🔥",
+      "description": "Another simple EMOM (every minute on the minute) workout. No breaks in between sections, straight into the next, get your equipment all ready to go.⁣",
+      "duration": 1440,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/951a27db-70e0-459e-b943-fabc4419fe5e-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "emom",
+            "recoverySeconds": 0,
+            "count": null,
+            "duration": 360,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Close Grip Pushups",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/951a27db-70e0-459e-b943-fabc4419fe5e-exercise-0-0-65577-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Twisted Curls",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/951a27db-70e0-459e-b943-fabc4419fe5e-exercise-0-1-90527-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          },
+          {
+            "name": "Block",
+            "kind": "emom",
+            "recoverySeconds": 0,
+            "count": null,
+            "duration": 360,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Overhead Press",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/951a27db-70e0-459e-b943-fabc4419fe5e-exercise-1-0-14733-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Hammer Curl",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/951a27db-70e0-459e-b943-fabc4419fe5e-exercise-1-1-12897-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          },
+          {
+            "name": "Block",
+            "kind": "emom",
+            "recoverySeconds": 0,
+            "count": null,
+            "duration": 360,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Skull Crushers",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/951a27db-70e0-459e-b943-fabc4419fe5e-exercise-2-0-49091-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Cross Body Curl",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/951a27db-70e0-459e-b943-fabc4419fe5e-exercise-2-1-84692-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": "each",
+                "restSeconds": null
+              }
+            ]
+          },
+          {
+            "name": "Block",
+            "kind": "emom",
+            "recoverySeconds": 0,
+            "count": null,
+            "duration": 360,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Max Banded Overhead Extension",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/951a27db-70e0-459e-b943-fabc4419fe5e-exercise-3-0-46578-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": -1,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Banded 21s (7-7-7)",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/951a27db-70e0-459e-b943-fabc4419fe5e-exercise-3-1-67512-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 21,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/951a27db-70e0-459e-b943-fabc4419fe5e-composite-thumbnail.gif",
+      "equipment": "common",
+      "author": {
+        "id": 14,
+        "name": "Nik Naidoo - Health \u0026 Fitness",
+        "instagramUserId": "53074968",
+        "instagramHandle": "niknaidoo",
+        "instagramName": "Nik Naidoo - Health \u0026 Fitness",
+        "profileDescription": "💻 Online Lifestyle Coach\\nSenior Instructor @barrysuk\\nTrainer @underarmouruk \\n🎙 Alive Present \u0026 Strong Podcast\\n#alivepresentstrong\\nSign up now 👇🏼",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/53074968.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 15,
+    "workout": {
+      "draftId": "8B5F51BD-8CD8-40EA-86EB-DD2A7CC060A9",
+      "id": 15,
+      "name": "5️⃣0️⃣0️⃣ REP HIIT CHALLENGE 👊",
+      "description": "What better way to get your weekend started than jumping into a killer 500 rep HIIT workout 🙌 Grab some water (lots of it 😅), a yoga mat (or your choice of floor) and lets GET IT!! 🔥",
+      "duration": 1800,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b5f51bd-8cd8-40ea-86eb-dd2a7cc060a9-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 40,
+            "count": 4,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Squat Jump to Lunge",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b5f51bd-8cd8-40ea-86eb-dd2a7cc060a9-exercise-0-0-47399-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 25,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Press Up to Mountain Climbers",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b5f51bd-8cd8-40ea-86eb-dd2a7cc060a9-exercise-0-1-50818-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 25,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Reverse Lunge Kick Up",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b5f51bd-8cd8-40ea-86eb-dd2a7cc060a9-exercise-0-2-17970-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 25,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Standing Twisted Squat Crunch",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b5f51bd-8cd8-40ea-86eb-dd2a7cc060a9-exercise-0-3-24908-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 25,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Jumping Squats",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/8b5f51bd-8cd8-40ea-86eb-dd2a7cc060a9-exercise-0-4-97064-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 25,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/8b5f51bd-8cd8-40ea-86eb-dd2a7cc060a9-composite-thumbnail.gif",
+      "equipment": "body",
+      "author": {
+        "id": 58,
+        "name": "Adam \u0026 Tay | FITNESS ⭐️",
+        "instagramUserId": "19283384088",
+        "instagramHandle": "adaylorfit",
+        "instagramName": "Adam \u0026 Tay | FITNESS ⭐️",
+        "profileDescription": "🤓 We like Fitness and being weird\\n💟 Body Confidence | Positive Vibes \\n👀 6’3 | 5’3 \\n📍 Kent 🌤\\n⤵️ Links to save some💰",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/19283384088.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 16,
+    "workout": {
+      "draftId": "EE2AF7A5-D856-4502-8A11-07E1806F35B1",
+      "id": 16,
+      "name": "BACK AND BIS WORKOUT 💪🏼",
+      "description": "I’m not too keen on working back so I’ve been training it with biceps (which I love) recently to enjoy it more 😊",
+      "duration": 1680,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/ee2af7a5-d856-4502-8a11-07e1806f35b1-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 0,
+            "count": 4,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Wide Bicep Curls",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/ee2af7a5-d856-4502-8a11-07e1806f35b1-exercise-0-0-51566-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Single Arm Bicep Curls",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/ee2af7a5-d856-4502-8a11-07e1806f35b1-exercise-0-1-96531-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": "each",
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Hammer Curls",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/ee2af7a5-d856-4502-8a11-07e1806f35b1-exercise-0-2-86158-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Wide Lat Pulldown",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/ee2af7a5-d856-4502-8a11-07e1806f35b1-exercise-0-3-58495-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Seated Row",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/ee2af7a5-d856-4502-8a11-07e1806f35b1-exercise-0-4-26218-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Bent Over Row",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/ee2af7a5-d856-4502-8a11-07e1806f35b1-exercise-0-5-6563-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": "each",
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/ee2af7a5-d856-4502-8a11-07e1806f35b1-composite-thumbnail.gif",
+      "equipment": "common",
+      "author": {
+        "id": 60,
+        "name": "Mia 🌸",
+        "instagramUserId": "32506946512",
+        "instagramHandle": "miap_fit",
+        "instagramName": "Mia 🌸",
+        "profileDescription": "23 🙋🏼‍♀️\\nBristol UK 📍\\nWorkouts | Meal Ideas | Progress Pics 💪🏼\\nHere to motivate and promote a positive journey 🌸",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/32506946512.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 17,
+    "workout": {
+      "draftId": "89B93A3F-99B1-4E7F-8A78-63396BC1429D",
+      "id": 17,
+      "name": "PLANK CORE WORKOUT",
+      "description": "I love ending my sessions with some abs.\n",
+      "duration": 600,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/89b93a3f-99b1-4e7f-8a78-63396bc1429d-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 60,
+            "count": 4,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Pike Toe Touches",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/89b93a3f-99b1-4e7f-8a78-63396bc1429d-exercise-0-0-9687-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Knee to Elbow Tap",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/89b93a3f-99b1-4e7f-8a78-63396bc1429d-exercise-0-1-86941-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Elbow Rotations",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/89b93a3f-99b1-4e7f-8a78-63396bc1429d-exercise-0-2-30702-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Marching Planks",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/89b93a3f-99b1-4e7f-8a78-63396bc1429d-exercise-0-3-84029-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Plank See Saw",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/89b93a3f-99b1-4e7f-8a78-63396bc1429d-exercise-0-4-63757-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/89b93a3f-99b1-4e7f-8a78-63396bc1429d-composite-thumbnail.gif",
+      "equipment": "body",
+      "author": {
+        "id": 53,
+        "name": "Faisal Abdalla (Mr PMA)",
+        "instagramUserId": "269669410",
+        "instagramHandle": "faisalpmafitness",
+        "instagramName": "Faisal Abdalla (Mr PMA)",
+        "profileDescription": "Fitness Coach\\nCelebrity Trainer\\nBestselling Author: The PMA Method \\n@noccouk Ambassador",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/269669410.jpg",
+        "profileVideo": null,
+        "verified": true,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 18,
+    "workout": {
+      "draftId": "2EA153B0-F7CB-43F5-AB07-648B9652B034",
+      "id": 18,
+      "name": "ARMS 💪 \u0026 LEGS 🔥⁣⁣",
+      "description": "If you need to get in some movement, this is the workout for you! It hits both your upper and lower body, so let’s get it 🔥⁣⁣ Rest as needed.\n",
+      "duration": 1500,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/2ea153b0-f7cb-43f5-ab07-648b9652b034-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 0,
+            "count": 5,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Single Arm Overhead Press + Hold",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/2ea153b0-f7cb-43f5-ab07-648b9652b034-exercise-0-0-40134-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 8,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": "each",
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Front Squat",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/2ea153b0-f7cb-43f5-ab07-648b9652b034-exercise-0-1-9775-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 15,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Arnold Press (variation)",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/2ea153b0-f7cb-43f5-ab07-648b9652b034-exercise-0-2-28422-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 8,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Sumo Squat",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/2ea153b0-f7cb-43f5-ab07-648b9652b034-exercise-0-3-32670-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 15,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Double Curl + Fly",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/2ea153b0-f7cb-43f5-ab07-648b9652b034-exercise-0-4-40848-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "count",
+                "count": 8,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/2ea153b0-f7cb-43f5-ab07-648b9652b034-composite-thumbnail.gif",
+      "equipment": "common",
+      "author": {
+        "id": 41,
+        "name": "✨Lifestyle Fitness✨",
+        "instagramUserId": "1948126538",
+        "instagramHandle": "hiitburn",
+        "instagramName": "✨Lifestyle Fitness✨",
+        "profileDescription": "🔥High Intensity Workouts\\n💡Co-Founders Dennis + Kelsey\\n💕Coach: @thedailykelsey \\n👇GET TONED \u0026 DEFINED🔥",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/1948126538.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 19,
+    "workout": {
+      "draftId": "D7282B2C-12C5-4A53-8D80-0F7D7A5EF4F8",
+      "id": 19,
+      "name": "Kettlebell and Bodyweight Burner",
+      "description": "Get after this one in your next workout! I love hitting this one after a 20-30 minute run 🔥\n",
+      "duration": 1200,
+      "promoted": false,
+      "explicit": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/d7282b2c-12c5-4a53-8d80-0f7d7a5ef4f8-composite.mp4",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 60,
+            "count": 5,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Iso Squat Kettlebell Raise",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/d7282b2c-12c5-4a53-8d80-0f7d7a5ef4f8-exercise-0-0-58074-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 0,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": "total",
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Blastoff Pushup to Shoulder Tap",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/d7282b2c-12c5-4a53-8d80-0f7d7a5ef4f8-exercise-0-1-45062-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Bear Twist",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/d7282b2c-12c5-4a53-8d80-0f7d7a5ef4f8-exercise-0-2-4384-1080x1920.mp4",
+                  "videoClipStartTime": 0,
+                  "videoClipEndTime": 0,
+                  "cardioCount": 0,
+                  "upperCount": 3,
+                  "lowerCount": 0,
+                  "coreCount": 0,
+                  "focusAreas": [],
+                  "equipment": []
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              }
+            ]
+          }
+        ]
+      },
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/d7282b2c-12c5-4a53-8d80-0f7d7a5ef4f8-composite-thumbnail.gif",
+      "equipment": "common",
+      "author": {
+        "id": 42,
+        "name": "Eric Leija",
+        "instagramUserId": "1426793957",
+        "instagramHandle": "primal.swoledier",
+        "instagramName": "Eric Leija",
+        "profileDescription": "‪ @onnit Kettlebell Coach \\n🔥Subscribe to My Daily Workouts\\n‪🔥Courses \u0026 Programs ‬\\n👉🏽Follow @primal.methods\\n👇🏽 8-Week Single Kettlebell Program",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/1426793957.jpg",
+        "profileVideo": null,
+        "verified": true,
+        "endorsements": [
+          {
+            "id": 1,
+            "title": "🔥 My 8-Week Single Kettlebell Program",
+            "linkUrl": "https://www.ericleija.com/product/8-week-single-kettlebell-program",
+            "imageUrl": "https://www.ericleija.com/wp-content/uploads/2019/01/Program-header-1200x630-cropped.jpg"
+          },
+          {
+            "id": 2,
+            "title": "👉🏽 Subscribe to My YouTube Workouts",
+            "linkUrl": "https://www.youtube.com/channel/UC3c1arW3MpWC_DxFvpnClxQ",
+            "imageUrl": "https://www.youtube.com/yts/img/yt_1200-vflhSIVnY.png"
+          },
+          {
+            "id": 3,
+            "title": "💪 Onnit Protein Power Puffs: my favorite high-protein, carb-conscious snack",
+            "linkUrl": "https://www.onnit.com/protein-power-puffs",
+            "imageUrl": "https://onnits3.imgix.net/authority/8232.png?w=439"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 20,
+    "workout": {
+      "draftId": "9DF5D86D-5311-4B15-90EF-4443BC6D91D3",
+      "id": 20,
+      "name": "No Equipment Cardio + Core",
+      "description": "A body weight workout to get that heart rate up followed by some abs! This one is so so good.",
+      "duration": 2280,
+      "promoted": false,
+      "explicit": false,
+      "equipment": "body",
+      "kind": "hiit",
+      "focusFull": true,
+      "focusUpper": false,
+      "focusLower": false,
+      "focusCore": true,
+      "focusCardio": true,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/9df5d86d-5311-4b15-90ef-4443bc6d91d3-composite.mp4",
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/9df5d86d-5311-4b15-90ef-4443bc6d91d3-composite-thumbnail.gif",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 30,
+            "count": 4,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Squat Jump Twist",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/9df5d86d-5311-4b15-90ef-4443bc6d91d3-exercise-0-0-67558-1080x1920.mp4"
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": "total",
+                "duration": 60,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Shuffle Touch",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/9df5d86d-5311-4b15-90ef-4443bc6d91d3-exercise-0-1-15948-1080x1920.mp4"
+                },
+                "kind": "time",
+                "count": null,
+                "countContext": null,
+                "duration": 60,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Alt Lunge Jump to Runners Hop",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/9df5d86d-5311-4b15-90ef-4443bc6d91d3-exercise-0-2-80787-1080x1920.mp4"
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": null,
+                "duration": 60,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Beast to Pike Jump",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/9df5d86d-5311-4b15-90ef-4443bc6d91d3-exercise-0-3-23906-1080x1920.mp4"
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": null,
+                "duration": 60,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Burpee to Lateral Jump",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/9df5d86d-5311-4b15-90ef-4443bc6d91d3-exercise-0-4-2224-1080x1920.mp4"
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": null,
+                "duration": 60,
+                "distance": null,
+                "context": null,
+                "restSeconds": 30
+              }
+            ]
+          },
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 0,
+            "count": 5,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Rock the Boat",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/9df5d86d-5311-4b15-90ef-4443bc6d91d3-exercise-1-0-80975-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 15,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Bicycles",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/9df5d86d-5311-4b15-90ef-4443bc6d91d3-exercise-1-1-56073-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 30,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 0
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Mountain Climbers",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/9df5d86d-5311-4b15-90ef-4443bc6d91d3-exercise-1-2-40196-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 40,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "author": {
+        "id": 78,
+        "name": "TAYLOR MCALLISTER",
+        "instagramUserId": "11209990018",
+        "instagramHandle": "tay_macfit",
+        "instagramName": "TAYLOR MCALLISTER",
+        "profileDescription": "MACFIT, Quick \u0026 Effective Workouts. \\n• BS in Public Health \u0026 CPT through ACE\\n#iam1stphorm\\n@ptulaactive TAYLOR",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/11209990018.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 22,
+    "workout": {
+      "draftId": "79503455-2387-4A19-BD16-FF7019577D9D",
+      "id": 22,
+      "name": "BRICKBUILT WEEKEND CORE WORKOUT!",
+      "description": "In our programming we train some form of core everyday, it is a foundational piece in our progression!",
+      "duration": 540,
+      "promoted": false,
+      "explicit": false,
+      "equipment": "body",
+      "kind": null,
+      "focusFull": false,
+      "focusUpper": false,
+      "focusLower": false,
+      "focusCore": true,
+      "focusCardio": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/79503455-2387-4a19-bd16-ff7019577d9d-composite.mp4",
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/79503455-2387-4a19-bd16-ff7019577d9d-composite-thumbnail.gif",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 0,
+            "count": 3,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Scissor Tucks",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/79503455-2387-4a19-bd16-ff7019577d9d-exercise-0-0-37225-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Halo Top Sit Ups",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/79503455-2387-4a19-bd16-ff7019577d9d-exercise-0-1-56903-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Double Bike Kicks",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/79503455-2387-4a19-bd16-ff7019577d9d-exercise-0-2-33564-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "author": {
+        "id": 68,
+        "name": "Brick Built Strength",
+        "instagramUserId": "6936520616",
+        "instagramHandle": "brickbuiltstrength",
+        "instagramName": "Brick Built Strength",
+        "profileDescription": "An online based company with personalized programming to change the look,feel and performance for your body from elite coaching. DM for more info 📲💻",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/6936520616.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
+  },
+  {
+    "id": 23,
+    "workout": {
+      "draftId": "3BBD058F-1E56-4F07-83DF-89B056D62FC7",
+      "id": 23,
+      "name": "MIGHTY HIIT/ABS",
+      "description": "5 POWERFUL MOVEMENTS\n0 Excuses!!!\nBodyweight only HIIT and core 🔥",
+      "duration": 1680,
+      "promoted": false,
+      "explicit": false,
+      "equipment": "body",
+      "kind": "hiit",
+      "focusFull": false,
+      "focusUpper": true,
+      "focusLower": true,
+      "focusCore": true,
+      "focusCardio": true,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/3bbd058f-1e56-4f07-83df-89b056d62fc7-composite.mp4",
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/3bbd058f-1e56-4f07-83df-89b056d62fc7-composite-thumbnail.gif",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 0,
+            "count": 5,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Squat to High Knees",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/3bbd058f-1e56-4f07-83df-89b056d62fc7-exercise-0-0-81280-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 20,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Squat Calf Raise Twists",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/3bbd058f-1e56-4f07-83df-89b056d62fc7-exercise-0-1-86527-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 20,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "V Kicks",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/3bbd058f-1e56-4f07-83df-89b056d62fc7-exercise-0-2-16080-1080x1920.mp4"
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": null,
+                "duration": 30,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Knee Ups",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/3bbd058f-1e56-4f07-83df-89b056d62fc7-exercise-0-3-16616-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": "each",
+                "restSeconds": 20
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Alternating Toe Taps",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/3bbd058f-1e56-4f07-83df-89b056d62fc7-exercise-0-4-2486-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 20,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": 20
+              }
+            ]
+          }
+        ]
+      },
+      "author": {
+        "id": 81,
+        "name": "K I M  F R E N C H 🇬🇧 Workouts",
+        "instagramUserId": "215128212",
+        "instagramHandle": "kimfrench87",
+        "instagramName": "K I M  F R E N C H 🇬🇧 Workouts",
+        "profileDescription": "▪️NASM CPT\\n▪️ @kimfrenchfitness \\n⬇️ Fitness Plans, Resistance Bands, Gym Gear\\n▪️ @nvgtn Athlete 💪🏻\\n▪️ @womensbest 💕\\n▪️ YouTube - Kim French",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/215128212.jpg",
+        "profileVideo": null,
+        "verified": true,
+        "endorsements": []
       }
     }
   }
