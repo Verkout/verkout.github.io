@@ -1,4 +1,6 @@
 #!/bin/bash
 
+rm ./workouts/*
+bundle exec jekyll clean
 bundle exec jekyll build
 cp ./_site/workouts/* ./workouts
