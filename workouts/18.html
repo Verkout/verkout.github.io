@@ -34,31 +34,32 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="/assets/css/normalize.css" />
     <link rel="stylesheet" href="/assets/css/skeleton.css" />
-    <link rel="stylesheet" href="/assets/css/main.css" />    
     <link rel="stylesheet" href="https://vjs.zencdn.net/7.8.3/video-js.min.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />    
+    
   
     <!-- Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <!-- <script
+    <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-      crossorigin="anonymous"></script> -->
+      crossorigin="anonymous"></script>
   
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
   </head>
   <body id="workout">
       <div class="container">        
         <section class="clear">
           <video
             id="workout_video_player"
-            class="video-js vjs-default-skin vjs-fluid"
+            class="video-js vjs-fluid vjs-big-play-button"
             muted="muted"
-            
-            autoplay
+            controls
             loop
-            data-setup='{ "controls": false, "autoplay": true, "loop": true, "poster": "https://verkout-app-media.s3.amazonaws.com/images/1948126538.jpg"}'
+            poster="https://verkout-app-media.s3.amazonaws.com/images/1948126538.jpg"
+            data-setup='{ "loop": true, "controls": true}'
           >
             <source src="https://verkout-app-media.s3.amazonaws.com/videos/2ea153b0-f7cb-43f5-ab07-648b9652b034-composite.mp4" type="video/mp4" />    
             <p class="vjs-no-js">
@@ -75,13 +76,46 @@
         </section>
         <section class="description">
           <h2>ARMS 💪 & LEGS 🔥⁣⁣</h2>
-          <h4>@hiitburn</h4>
+          
+          
+          <a href="https://www.instagram.com/hiitburn" target="_">
+          <h4>
+            <img src="https://verkout-app-media.s3.amazonaws.com/images/1948126538.jpg" alt="@hiitburn Avatar" class="avatar">
+            @hiitburn
+          </h4>
+        </a>
           <p>If you need to get in some movement, this is the workout for you! It hits both your upper and lower body, so let’s get it 🔥⁣⁣ Rest as needed.
 </p>
         </section>
     </div>
 
     <script src="https://vjs.zencdn.net/7.8.3/video.js"></script>    
+    <script>
+      var options = {"loop": true, "controls": true, "muted": false, "poster": "https://verkout-app-media.s3.amazonaws.com/images/1948126538.jpg"};
+
+      var player = videojs('workout_video_player', options, function onPlayerReady() {
+        videojs.log('Your player is ready!');
+
+        // In this context, `this` is the player that was created by Video.js.
+        var self = this;
+
+        // this.on('click', function() {
+        //   self.play();
+        //   if (self.paused()) {
+        //     self.play();
+        //   } else {
+        //     self.pause();
+        //   }
+        // })
+        
+
+        // How about an event listener?
+        this.on('ended', function() {
+          // videojs.log('Awww...over so soon?!');
+        });
+      });
+
+    </script>
   </body>
   
 </html>
