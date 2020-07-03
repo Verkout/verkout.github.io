@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "P5BKYA3FLZ.com.verkout.VerkoutMobile",
+            "paths": ["/workouts/*"]
+            }
+        ]
+    }
+}
