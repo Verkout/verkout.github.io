@@ -1,3 +1,6 @@
+---
+permalink: .well_known/apple-app-site-association
+---
 {
     "applinks": {
         "apps": [],
