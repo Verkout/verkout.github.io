@@ -1,5 +1,5 @@
 ---
-permalink: .well_known/apple-app-site-association
+permalink: /apple-app-site-association
 ---
 {
     "applinks": {
