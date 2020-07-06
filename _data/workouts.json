@@ -2625,5 +2625,236 @@
         "endorsements": []
       }
     }
+  },
+  {
+    "id": 24,
+    "workout": {
+      "draftId": "0630271C-A181-4B84-A44C-0719926D4BED",
+      "id": 24,
+      "name": "Full UPPER BODY HIIT workout 💪🏼",
+      "description": "Dumbbell Only + Extra Sweaty 💦\nThis. Was. Killer.",
+      "duration": 2400,
+      "promoted": false,
+      "explicit": false,
+      "equipment": "common",
+      "kind": "hiit",
+      "focusFull": false,
+      "focusUpper": true,
+      "focusLower": false,
+      "focusCore": false,
+      "focusCardio": false,
+      "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-composite.mp4",
+      "thumbnail": "https://verkout-app-media.s3.amazonaws.com/images/0630271c-a181-4b84-a44c-0719926d4bed-composite-thumbnail.gif",
+      "originalPostUrl": "https://www.instagram.com/p/CCKJLsxJtlH/",
+      "structure": {
+        "blocks": [
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 0,
+            "count": 4,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Narrow Floor Press",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-0-0-5354-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 12,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Ben Over Single Arm High Row",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-0-1-32967-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": null,
+                "distance": null,
+                "context": "each",
+                "restSeconds": null
+              }
+            ]
+          },
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 0,
+            "count": 3,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Transition Raise",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-1-0-21625-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 6,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Static Hold Curls",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-1-1-3479-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 8,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": "each",
+                "restSeconds": 0
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "OH Press Variation",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-1-2-19318-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          },
+          {
+            "name": "Block",
+            "kind": "count",
+            "recoverySeconds": 0,
+            "count": 3,
+            "duration": null,
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Scoop Press",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-2-0-79005-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Triceps Push Up",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-2-1-93979-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 10,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": 0
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Mountain Climber w/Hold",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-2-2-32475-1080x1920.mp4"
+                },
+                "kind": "time",
+                "count": 12,
+                "countContext": null,
+                "duration": 40,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          },
+          {
+            "name": "Block",
+            "kind": "time",
+            "recoverySeconds": 0,
+            "count": null,
+            "duration": 600,
+            "video": "/Users/bdainton/Library/Developer/CoreSimulator/Devices/92CEF334-B4D2-4F62-871D-37E577D92615/data/Containers/Data/Application/059B686B-940A-4379-90F3-CD2887C3881E/Documents/workout-draft-0630271C-A181-4B84-A44C-0719926D4BED/block-3.mp4",
+            "cardValueAce": null,
+            "cardValueJack": null,
+            "cardValueQueen": null,
+            "cardValueKing": null,
+            "exercises": [
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "Bear to Plyo Push Up",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-3-0-66369-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 8,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              },
+              {
+                "exercise": {
+                  "id": null,
+                  "name": "2 Jumping Jacks into 2 Drop Squats",
+                  "video": "https://verkout-app-media.s3.amazonaws.com/videos/0630271c-a181-4b84-a44c-0719926d4bed-exercise-3-1-58780-1080x1920.mp4"
+                },
+                "kind": "count",
+                "count": 8,
+                "countContext": "total",
+                "duration": null,
+                "distance": null,
+                "context": null,
+                "restSeconds": null
+              }
+            ]
+          }
+        ]
+      },
+      "author": {
+        "id": 15,
+        "name": "Jill Saunders | Fitness+Macros",
+        "instagramUserId": "9612009017",
+        "instagramHandle": "jillsaundersfit",
+        "instagramName": "Jill Saunders | Fitness+Macros",
+        "profileDescription": "📍 Sunshine Coast, BC\\n✖️Macros + CPT + IG Live Workouts\\n🔥 High Intensity Resistance Training\\n💦1 on 1 Training w/ Private Studio on the Sunshine Coast",
+        "profileImageUrl": "https://verkout-app-media.s3.amazonaws.com/images/9612009017.jpg",
+        "profileVideo": null,
+        "verified": false,
+        "endorsements": []
+      }
+    }
   }
 ]
