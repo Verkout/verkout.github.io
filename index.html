@@ -1,15 +1,25 @@
 ---
 layout: default
 title: "Verkout: the workouts of Instagram"
+description: "The workouts of Instagram. No signup. No fluff. Just workouts and a world of fitness inspiration."
+logo: "https://verkout-app-media.s3.amazonaws.com/images/logo-1024.png"
 ---
 
 <head>
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8" />
-  <title>{{ title }}</title>
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <title>{{ title }}</title>  
+  <meta name="description" content="{{ description }}" />
+    <meta name="author" content="Verkout" />
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="{{ logo }}">
+    <meta property="og:url" content="https://www.verkout.com">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ logo }}">
+    <meta name="twitter:card" content="summary_large_image">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
