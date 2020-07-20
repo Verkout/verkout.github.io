@@ -33,6 +33,10 @@ $colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
   font-weight: bold;
 }
 
+#home a {
+  color: $colorAlmostBlack;
+}
+
 .centered {
   text-align: center;
 }
