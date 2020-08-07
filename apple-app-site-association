@@ -6,7 +6,7 @@ permalink: /.well-known/apple-app-site-association
         "apps": [],
         "details": [{
             "appID": "P5BKYA3FLZ.com.verkout.VerkoutMobile",
-            "paths": ["/workouts/*", "/c/*],
+            "paths": ["/workouts/*", "/c/*"],
             "components": [
                 {
                     "/": "/workouts/*",
