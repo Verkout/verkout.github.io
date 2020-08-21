@@ -3,15 +3,20 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <!-- Basic Page Needs
+    <!-- Basic Page Need
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8" />
     <title>{{ page.workout.author.instagramHandle }}'s {{ page.workout.name }}</title>
     <meta name="description" content="{{page.workout.name}} from @{{page.workout.author.instagramHandle}}: {{workout.description}}" />
     <meta name="author" content="@{{ page.workout.author.instagramHandle }} ({{ page.workout.author.profileDescription}})" />
+    <meta property="og:site_name" content="Verkout">
+    <meta property="og:type" content="video">
     <meta property="og:title" content="{{page.workout.name}} from @{{page.workout.author.instagramHandle}}">
     <meta property="og:description" content="{{page.workout.description}}">
     <meta property="og:image" content="{{page.workout.author.profileImageUrl}}">
+    <meta property="og:video" content="{{page.workout.shareVideo}}">
+    <meta property="og:video:width" content="1080">
+    <meta property="og:video:height" content="1920">  
     <meta property="og:url" content="https://www.verkout.com/workouts/{{page.workout.id}}">
     <meta name="twitter:title" content="{{page.workout.name}} from @{{page.workout.author.instagramHandle}}">
     <meta name="twitter:description" content="{{page.workout.description}}">
@@ -61,7 +66,7 @@
             poster="{{page.workout.author.profileImageUrl}}"
             data-setup='{ "loop": true, "controls": true}'
           >
-            <source src="{{ page.workout.video }}" type="video/mp4" />    
+            <source src="{{ page.workout.shareVideo }}" type="video/mp4" />    
             <p class="vjs-no-js">
               To view this video please enable JavaScript, and consider upgrading to a
               web browser that
