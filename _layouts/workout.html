@@ -100,23 +100,10 @@
       var player = videojs('workout_video_player', options, function onPlayerReady() {
         videojs.log('Your player is ready!');
 
-        // In this context, `this` is the player that was created by Video.js.
-        var self = this;
-
-        // this.on('click', function() {
-        //   self.play();
-        //   if (self.paused()) {
-        //     self.play();
-        //   } else {
-        //     self.pause();
-        //   }
-        // })
-        
-
-        // How about an event listener?
-        this.on('ended', function() {
-          // videojs.log('Awww...over so soon?!');
-        });
+        // // How about an event listener?
+        // this.on('ended', function() {
+        //   // videojs.log('Awww...over so soon?!');
+        // });
       });
 
     </script>
