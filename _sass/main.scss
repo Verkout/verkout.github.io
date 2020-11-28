@@ -27,6 +27,12 @@ $colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
   padding-bottom: 3rem;
 }
 
+#home .backlit {
+  background-color: $colorLighterGold;
+  border: 1px solid $colorDarkerGold;
+  border-radius: 0.5rem;
+}
+
 #home .header h2 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
@@ -35,6 +41,26 @@ $colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
 
 #home a {
   color: $colorAlmostBlack;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cozy {
+  margin-top: -2rem;
+}
+
+.comfy {
+  margin-top: 4rem;
+}
+
+.mini {
+  height: 0.5rem;
+}
+
+.rightAligned {
+  text-align: right;
 }
 
 .centered {
