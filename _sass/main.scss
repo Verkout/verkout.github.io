@@ -8,6 +8,7 @@ $colorLighterGray: #dddddd;
 $colorLightestGray: #eeeeee;
 $colorLighterGold: #fde33d;
 $colorLightestGold: #ffeb67;
+$colorGoldenWhite: #fffce2;
 $colorDarkerGold: #bea400;
 $colorDarkestGold: #958100;
 $colorTranslucentBlackLight: rgba(0, 0, 0, 0.3);
@@ -27,10 +28,29 @@ $colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
   padding-bottom: 3rem;
 }
 
-#home .backlit {
+.backlit {
   background-color: $colorLighterGold;
   border: 1px solid $colorDarkerGold;
   border-radius: 0.5rem;
+}
+
+.inset {
+  background-color: $colorAlmostBlack;
+  border: 1px solid $colorCharcoal;
+  border-radius: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+
+.inset h4 {
+  color: $colorGold;
+}
+
+.inset h5 {
+  // color: $colorGoldenWhite;
+  color: $colorLighterGray;
 }
 
 #home .header h2 {
