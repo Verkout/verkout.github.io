@@ -18,6 +18,10 @@ $colorTranslucentWhiteLight: rgba(255, 255, 255, 0.3);
 $colorTranslucentWhiteMedium: rgba(255, 255, 255, 0.5);
 $colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
 
+* {
+  font-family: Roboto, sans-serif;
+}
+
 #home {
   background: $colorGold;
   color: $colorCharcoal;
@@ -26,6 +30,10 @@ $colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
 #home section {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.section {
+  overflow: visible;
 }
 
 .backlit {
@@ -65,8 +73,22 @@ $colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
   color: $colorAlmostBlack;
 }
 
+h2 {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+}
+
 .bold {
   font-weight: bold;
+}
+
+.glowing {
+  // color: $colorGoldenWhite;
+  // color: $colorGold;
+  // font-weight: 600;
 }
 
 .cozy {
@@ -90,7 +112,15 @@ $colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
 }
 
 .mediumWidth {
-  width: 3rem;
+  width: 2rem;
+}
+
+.logoIg {
+}
+
+.logoTwitter {
+  margin-left: 2rem;
+  padding-bottom: 1px;
 }
 
 #workout {
