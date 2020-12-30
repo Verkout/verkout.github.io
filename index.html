@@ -15,6 +15,9 @@ logo: "https://www.verkout.com/assets/images/logo-1024.png"
   <meta property="og:description" content="{{ page.description }}">
   <meta property="og:image" content="{{ page.logo }}">
   <meta property="og:url" content="https://www.verkout.com">
+  <meta property="og:video" content="https://d3ku7zkkqjmli8.cloudfront.net/videos/welcome.mp4">
+  <meta property="og:video:width" content="540">
+  <meta property="og:video:height" content="960">  
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.description }}">
   <meta name="twitter:image" content="{{ page.logo }}">
@@ -25,6 +28,7 @@ logo: "https://www.verkout.com/assets/images/logo-1024.png"
   <link rel="stylesheet" href="/assets/css/base.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet" type="text/css">  
   <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="https://vjs.zencdn.net/7.8.3/video-js.min.css" />
 
   <style>
     html {
@@ -90,7 +94,25 @@ logo: "https://www.verkout.com/assets/images/logo-1024.png"
         <div class="col-6 mobile-text-center">
           <div class="iphone">
             <div class="mask">                
-              <img src="/assets/images/loading.png" alt="Screenshot of iPhone App" class="mask-img">
+              <!-- <img src="/assets/images/loading.png" alt="Screenshot of iPhone App" class="mask-img"> -->              
+              <video
+                id="workout_video_player"
+                class="video-js vjs-fluid vjs-big-play-button"
+                muted="muted"
+                controls
+                loop
+                poster="https://verkout.com/assets/images/loading.png"
+                data-setup='{ "loop": false, "controls": true}'
+              >
+              <source src="https://d3ku7zkkqjmli8.cloudfront.net/videos/welcome.mp4" type="video/mp4">
+                <p class="vjs-no-js">
+                  To view this video please enable JavaScript, and consider upgrading to a
+                  web browser that
+                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                    >supports HTML5 video</a
+                  >
+                </p>
+              </video>
             </div>
           </div>
         </div>
@@ -139,4 +161,14 @@ logo: "https://www.verkout.com/assets/images/logo-1024.png"
       </div>                
     </section>
   </div>    
+
+  <script src="https://vjs.zencdn.net/7.8.3/video.js"></script>    
+  <script>
+    var options = {"loop": false, "controls": true, "muted": false, "poster": "https://verkout.com/assets/images/loading.png"};
+
+    var player = videojs('workout_video_player', options, function onPlayerReady() {
+      videojs.log('Your player is ready!');
+    });
+
+  </script>
 </body>
