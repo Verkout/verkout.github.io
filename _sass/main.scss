@@ -36,6 +36,11 @@ $colorTranslucentWhiteHeavy: rgba(255, 255, 255, 0.7);
   overflow: visible;
 }
 
+.footer-section {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .backlit {
   background-color: $colorLighterGold;
   border: 1px solid $colorDarkerGold;
