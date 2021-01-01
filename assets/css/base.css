@@ -3078,15 +3078,17 @@ td.hljs-ln-code {
   position: absolute;
   display: inline-block;
   background: linear-gradient(#f4f4f4, #f2f2f2);
-  padding: 62px 30px 78px 12px;
+  /* padding: 62px 30px 78px 12px; */
+  padding: 62px 12px 78px 12px;
   border-radius: 40px 52px 33px 55px;
-  transform: rotateX(-45deg) rotateZ(45deg) translateX(0);
+  /* transform: rotateX(-45deg) rotateZ(45deg) translateX(0); */
   box-shadow: 8px 8px 21px 0 rgba(0, 0, 0, 0.26),
     inset -5px -5px 6px 0 rgba(0, 0, 0, 0.12156862745098039),
     inset -15px -15px 13px 0 #c5cbd0,
     inset -11px -11px 6px 3px rgba(255, 255, 255, 0.75);
   right: 130px;
-  bottom: -240px;
+  /* bottom: -240px; */
+  bottom: -120px;
 }
 .iphone:before {
   content: "";
