@@ -101,8 +101,8 @@ a {
   line-height: 1.5;
 }
 .bold {
-  font-size: 22px;
-  line-height: 1.5;
+  /* font-size: 22px;
+  line-height: 1.5; */
 }
 .text-center {
   text-align: center;
