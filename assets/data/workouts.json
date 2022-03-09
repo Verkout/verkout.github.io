@@ -1,28 +1,38 @@
 {
   "data": [
     {      
-      "date": "2022030",
+      "date": "20220310",
       "slug": "wppLAEXbtOs",
+      "channel": "UCXtE168z7GAxYKAIHFOgm8w",
+      "channelName": "TIFF x DAN",
       "equipment": "bodyweight"
     },
     {      
       "date": "20220309",
       "slug": "xoUHMebjFSs",
+      "channel": "UCyiNCEHLyKbSUrrncVr9KvQ",
+      "channelName": "Fraser Wilson",
       "equipment": "common"
     },
     {      
       "date": "20220308",
       "slug": "Y2eOW7XYWxc",
+      "channel": "UChVRfsT_ASBZk10o0An7Ucg",
+      "channelName": "Pamela Reif",
       "equipment": "bodyweight"
     },
     {      
       "date": "20220307",
       "slug": "GViX8riaHX4",
+      "channel": "",
+      "channelName": "Caroline Girvan",
       "equipment": "common"
     },
     {
       "date": "20220306",
       "slug": "M0uO8X3_tEA",
+      "channel": "",
+      "channelName": "Juice &amp; Toya",
       "equipment": "bodyweight"
     }
   ],
