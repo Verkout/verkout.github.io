@@ -1,205 +1,42 @@
----
-layout: default
-title: "Verkout: a fitness app for people over 40"
-description: "Verkout is a fitness app for people over 40; it makes daily fitness approachable for those of us who are 40+, busy, easily bored, frequently unmotivated, and utterly resistant to signing up or signing in to any product. Once each day, just launch the app and tap Start. No thinking. JUST MOVING. "
-logo: "https://www.verkout.com/assets/images/logo-1024.png"
----
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>{{ title }}</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="{{ page.description }}" />
-  <meta name="author" content="Verkout" />
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.description }}">
-  <meta property="og:image" content="{{ page.logo }}">
-  <meta property="og:url" content="https://www.verkout.com">
-  <meta property="og:video" content="https://d3ku7zkkqjmli8.cloudfront.net/videos/verkout-tall-15sec-4.mp4">
-  <meta property="og:video:width" content="540">
-  <meta property="og:video:height" content="960">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ page.description }}">
-  <meta name="twitter:image" content="{{ page.logo }}">
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>	
+	<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+
+	<title>Verkout - The quick daily workout. Can you do it?</title>
+	<link rel='stylesheet' href='/global.css'>
+  <link rel='stylesheet' href='/index.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+  <meta name="description" content="One full-body YouTube workout each day in 30 minutes or less. Just hit play and do your best.">
+  <meta itemprop="name" content="Verkout">
+  <meta itemprop="description" content="One full-body YouTube workout each day in 30 minutes or less. Just hit play and do your best.">
+  <meta itemprop="image" content="/assets/img/logo-1024.png">
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+  <meta property="og:url" content="https://verkout.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Verkout - The quick daily workout. Can you do it?">
+  <meta property="og:description" content="One full-body YouTube workout each day in 30 minutes or less. Just hit play and do your best.">
+  <meta property="og:image" content="/assets/img/logo-1024.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="apple-itunes-app" content="app-id=1505620734">
-  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+  <meta name="twitter:title" content="Verkout - The quick daily workout. Can you do it?">
+  <meta name="twitter:description" content="One full-body YouTube workout each day in 30 minutes or less. Just hit play and do your best.">
+  <meta name="twitter:image" content="/assets/img/logo-1024.png">
 
-  <link rel="stylesheet" href="/assets/css/base.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/assets/css/main.css" />
-  <link rel="stylesheet" href="https://vjs.zencdn.net/7.8.3/video-js.min.css" />
+	<script defer src='/build/bundle.js'></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZT0TPL45R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  <style>
-    html {
-      background-color: #000000;
-    }
-
-    .palette {
-      background-color: #000000
-    }
-
-    .palette .primary-color {
-      color: #F2D308
-    }
-
-    .palette .secondary-color {
-      color: #DDDDDD
-    }
-
-    .palette .accent-bg {
-      background-color: #F2D308
-    }
-
-    .palette .secondary-bg {
-      background-color: #2898FB
-    }
-
-    .palette .svg-fill {
-      fill: #FFFFFF
-    }
-  </style>
+    gtag('config', 'G-FZT0TPL45R');
+  </script>
 </head>
 
-<body>
-  <div class="palette">
-    <!---->
-    <header class="header">
-      <div class="container-lrg">
-        <div class="flex col-12 spread">
-          <a href="index.html" class="logo logo__white">
-            <img src="/assets/images/logo-1024.png" alt="Verkout Logo">
-          </a>
-          <span class="secondary-color">
-            <a href="mailto:hello@verkout.com" class="nav-link secondary-color">Contact</a> <span
-              class="secondary-color">·</span>
-            <a href="support.html" class="nav-link secondary-color">Support</a>
-          </span>
-        </div>
-      </div>
-    </header>
-    <section class="section">
-      <div class="container-lrg flex">
-        <div class="flex flex-column col-6 center-vertical mobile-text-center mb40">
-          <h1 class="heading primary-color">a fitness app for people over 40</h1>
-          <h2 class="subheading secondary-color mt20">
-            Too busy? Unmotivated? Once each day, just launch the app and tap Start.
-            <br /><br />
-            No thinking. Just moving.
-          </h2>
-          <!---->
-          <div class="mt40">
-            <a href="https://apps.apple.com/us/app/verkout/id1505620734" target="_blank"
-              class="button mobile-text-center mt10 mobile-text-center accent-bg button__black">
-              <span>Download for iOS</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-6 mobile-text-center">
-          <div class="iphone">
-            <div class="mask">
-              <!-- <img src="/assets/images/loading.png" alt="Screenshot of iPhone App" class="mask-img"> -->
-              <video id="workout_video_player" class="video-js vjs-fluid vjs-big-play-button" muted="muted" controls
-                loop poster="https://verkout.com/assets/images/loading.png"
-                data-setup='{ "loop": false, "controls": true}'>
-                <source src="https://d3ku7zkkqjmli8.cloudfront.net/videos/verkout-tall-15sec-4.mp4" type="video/mp4">
-                <p class="vjs-no-js">
-                  To view this video please enable JavaScript, and consider upgrading to a
-                  web browser that
-                  <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                </p>
-              </video>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container-lrg flex">
-        <div class="flex flex-column col-12 center-vertical mobile-text-center mb40">
-          <h2 class="primary-color">It's tough to stay fit as you get older.</h2>
-          <h3 class="secondary-color mt20">
-            We know <span class='bold'>you're busy</span>: family, job, commitments.  
-            And, if you're like us, <span class='bold'>you get bored</span> after a while and lose momentum.            
-          </h3>
-        </div>
-      </div>
-      <div class="container-lrg flex">
-        <div class="flex flex-column col-12 center-vertical mobile-text-center mb40">
-          <h2 class="primary-color">Verkout makes it easy to stay consistent.</h2>
-          <h3 class="secondary-color mt20">
-            <span class="bold">one workout each day</span><br />
-            Hand-picked. Full-body. Everyone around the world does the same workout. Too challenging? Modify to suit your taste.
-          </h3>
-          <h3 class="secondary-color mt20">
-            <span class="bold">20 to 30 minutes</span><br />
-            You're busy? No problem. You can always fit the Daily Verkout into your schedule.
-          </h3>
-          <h3 class="secondary-color mt20">
-            <span class="bold">infinite variety</span><br />
-            You get bored with your regular workouts? Each day's workout is something different, always from someone new, someone undiscovered or under-celebrated on Instagram.
-          </h3>
-          <h3 class="secondary-color mt20">
-            <span class="bold">doable anywhere</span><br />
-            Every day, you'll have access to one bodyweight workout and one workout with common equipment (dumbbells,
-            kettlebells, resistance bands, jumprope, box). Roll out of bed, open the app, and GET GOING.
-          </h3>
-        </div>
-      </div>
-      <div class="container-lrg flex">
-        <div class="flex flex-column col-12 center-vertical mobile-text-center mb40">
-          <h2 class="primary-color">Feel better and stronger after just one week doing the Daily Verkout.</h2>
-          <h3 class="secondary-color mt20">
-            <span class="bold">NO SIGNUP</span>.<br />
-            No email.<br />
-            No goal-setting.<br />
-            No credit card.<br />
-            No questions.<br />
-            No cost.<br />
-            <br />
-            <span class="bold">No thinking.<br />
-              JUST MOVING.</span>
-          </h3>
-        </div>
-      </div>
-    </section>
-    <section class="section footer-section">
-      <div class="container-lrg flex">
-        <div class="flex flex-column col-12 center-vertical text-center mobile-text-center mb40">
-          <div class="mt40">
-            <a href="https://apps.apple.com/us/app/verkout/id1505620734" target="_blank"
-              class="button mobile-text-center mt10 mobile-text-center accent-bg button__black">
-              <span>Download for iOS</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="container-lrg flex">
-        <div class="flex flex-column col-12 text-center mobile-text-center mb40">
-          <h2 class="primary-color bold">Have you done your Verkout today?</h2>
-          <p class="secondary-color comfy">The iOS app is built by<br />our small team in Austin, TX.</p>
-          <p class="secondary-color"><br />Android is up next.</p>
-          <div class="social">
-            <br />
-            <a href="https://instagram.com/verkoutapp" target=_"><img class="logoIg mediumWidth"
-                src="/assets/images/logo-ig-white.png" /></a>
-            <a href="https://twitter.com/verkoutapp" target=_"><img class="logoTwitter mediumWidth"
-                src="/assets/images/logo-twitter-white.png" /></a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <script src="https://vjs.zencdn.net/7.8.3/video.js"></script>
-  <script>
-    var options = { "loop": false, "controls": true, "muted": false, "poster": "https://verkout.com/assets/images/loading.png" };
-
-    var player = videojs('workout_video_player', options, function onPlayerReady() {
-      videojs.log('Your player is ready!');
-    });
-
-  </script>
+<body class="bg-black">  
 </body>
+</html>
