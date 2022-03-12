@@ -959,7 +959,7 @@ video {
 
 .text-lightGray {
   --tw-text-opacity: 1;
-  color: rgba(114, 114, 114, var(--tw-text-opacity));
+  color: rgba(148, 148, 148, var(--tw-text-opacity));
 }
 
 .text-lighterGray {
