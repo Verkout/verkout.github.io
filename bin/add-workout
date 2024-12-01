@@ -1,0 +1,207 @@
+#!/usr/bin/env ruby
+
+require "httparty"
+require "json"
+require "cgi"
+require "date"
+
+usage = "add-workout [URL] [body|common (optional)]"
+if ARGV.size < 1
+  puts usage
+  exit
+end
+
+# get the post slug
+url = ARGV[0]
+equipment = ARGV[1]
+if equipment == "b"
+  equipment = "body"
+elsif equipment == "c"
+  equipment = "common"
+end
+
+# get a handle to the assets/data/workouts.json file
+script_dir = File.expand_path(File.dirname(__FILE__))
+workouts_file = File.read(File.join(script_dir, "..", "assets/data/workouts.json"))
+creators = JSON.parse(workouts_file)["creators"]
+workouts = JSON.parse(workouts_file)["workouts"]
+puts "creators.size: #{creators.size}"
+puts "workouts['body'].size: #{workouts["body"].size}"
+puts "workouts['common'].size: #{workouts["common"].size}"
+
+VERKOUT_EPOCH = "20231218"
+
+today_date = Date.today.to_s
+yesterday_date = (Date.today - 1).to_s
+today = Date.parse(today_date)
+yesterday = Date.parse(yesterday_date)
+
+today_day_diff = (today - Date.parse(VERKOUT_EPOCH)).to_i
+yesterday_day_diff = (yesterday - Date.parse(VERKOUT_EPOCH)).to_i
+
+today_candidate_workouts = []
+yesterday_candidate_workouts = []
+today_workout_equipment = nil
+yesterday_workout_equipment = nil
+
+if today_day_diff.even?
+  today_candidate_workouts = workouts["body"]
+  yesterday_candidate_workouts = workouts["common"]
+  today_workout_equipment = "body"
+  yesterday_workout_equipment = "common"
+else
+  today_candidate_workouts = workouts["common"]
+  yesterday_candidate_workouts = workouts["body"]
+  today_workout_equipment = "common"
+  yesterday_workout_equipment = "body"
+end
+
+today_workout_index = today_day_diff % today_candidate_workouts.length
+yesterday_workout_index = yesterday_day_diff % yesterday_candidate_workouts.length
+
+today_workout = today_candidate_workouts[today_workout_index]
+
+yesterday_workout = yesterday_candidate_workouts[yesterday_workout_index]
+
+puts "TODAY'S WORKOUT:"
+pp today_workout
+puts "YESTERDAY'S WORKOUT:"
+pp yesterday_workout
+
+
+url = url.gsub("https://", "")
+parts = url.split("/")
+host = parts.first
+remainder = parts.last
+post_slug = nil
+
+remainder = remainder.split("?")
+if host == "youtu.be"
+  post_slug = remainder.first
+elsif host == "youtube.com" || host == "www.youtube.com"
+  params = CGI.parse(remainder.last)
+  post_slug = params["v"].first
+else
+  puts "This does not look like a YouTube URL. Quitting."
+  exit
+end
+
+# hit the YT API to get info about the video w/that slug
+YT_API_KEY = "AIzaSyBtaSG-uqIQpm-1Ccp3nG_VlmulsG-rDE8"
+# puts "post_slug: #{post_slug}"
+api_url = "https://www.googleapis.com/youtube/v3/videos?key=#{YT_API_KEY}&part=snippet&id=#{post_slug}"
+
+response = HTTParty.get(api_url)
+body = JSON.parse(response.body)
+
+info = body["items"].first["snippet"]
+puts
+puts
+puts "https://youtu.be/#{post_slug}"
+channel_name = info["channelTitle"]
+channel_id = info["channelId"]
+puts channel_name
+puts channel_id
+puts info["title"]
+description = "#{info["title"]} #{info["description"]} #{(info["tags"] || []).join(" ")}"
+# puts description
+equipment_suggestion = "body"
+if /dumbbell|dumbell|kettle|(with weights)/i =~ description
+  equipment_suggestion = "common"
+end
+puts
+puts "EQUIPMENT SUGGESTION: #{equipment_suggestion}"
+final_equipment = nil
+
+if equipment && (equipment != equipment_suggestion)
+  puts "    >> You said '#{equipment}' but analysis suggests '#{equipment_suggestion}'. Please enter B (bodyweight) or C (common equipment) to confirm."
+  final_equipment = STDIN.gets.chomp()
+  # puts
+  # puts "FINAL EQUIPMENT you gave was...#{final_equipment}"
+  if final_equipment == "b"
+    final_equipment = "body"
+  elsif final_equipment == "c"
+    final_equipment = "common"
+  else
+    puts "NOPE, that's not an option. Exiting. Try again."
+    exit
+  end
+else
+  final_equipment = equipment_suggestion
+end
+
+puts "ADDING WORKOUT WITH EQUIPMENT: #{final_equipment}"
+puts "channel_id: #{channel_id} (#{channel_name})"
+
+# format the new workout entry
+workout_entry = {
+  "channel" => channel_id,
+  "slug" => post_slug
+}
+
+# if the channel_id is not already in the creators list, add it
+if !creators.key?(channel_id)
+  creators[channel_id] = { "name" => channel_name }
+  puts "    >> Added new creator '#{channel_name}' with ID '#{channel_id}'"
+end
+
+# determine workout indices based on today's workout type
+body_workout_index = nil
+common_workout_index = nil
+
+if today_workout_equipment == "body"
+  body_workout_index = today_workout_index
+  common_workout_index = yesterday_workout_index
+else
+  body_workout_index = yesterday_workout_index
+  common_workout_index = today_workout_index
+end
+
+# if the workout entry is already somewhere in the list, don't add it again
+if workouts["body"].include?(workout_entry) || workouts["common"].include?(workout_entry)
+  puts "    >> Workout already exists. Exiting."
+  exit
+end
+
+# if it is a body workout, add it to the body workouts list after the workout at body_workout_index
+if final_equipment == "body"
+  workouts["body"].insert(body_workout_index + 1, workout_entry)
+  puts "    >> Added new body workout at index #{body_workout_index + 1}"
+end
+
+# if it is a common workout, add it to the common workouts list after the workout at common_workout_index
+if final_equipment == "common"
+  workouts["common"].insert(common_workout_index + 1, workout_entry)
+  puts "    >> Added new common workout at index #{common_workout_index + 1}"
+end
+
+# write the updated workouts to the file
+File.write(File.join(script_dir, "..", "assets/data/workouts.json"), JSON.pretty_generate({ "active" => {}, "creators" => creators, "workouts" => workouts }))
+puts "    >> Updated workouts.json"
+exit
+
+access_token = "4cbe7e8f2126bd02aedbec78e40b34aa"
+workout = {
+  "source_kind": "youtube",
+  "post_slug": post_slug,
+  "equipment": final_equipment,
+  "channel_id": channel_id,
+  "channel_name": channel_name,
+}
+puts workout.to_json
+
+# HTTParty post
+options = {
+  #method: "POST",
+  body: { workout: workout }.to_json,
+  headers: {
+    'Accept': "application/json",
+    'Content-Type': "application/json",
+    'token_type': "bearer",
+    'access_token': access_token,
+  },
+}
+
+response = HTTParty.post("https://api.verkout.com/workouts", options)
+puts response
+puts "---"
