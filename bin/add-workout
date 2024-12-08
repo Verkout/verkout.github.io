@@ -60,14 +60,12 @@ today_workout_index = today_day_diff % today_candidate_workouts.length
 yesterday_workout_index = yesterday_day_diff % yesterday_candidate_workouts.length
 
 today_workout = today_candidate_workouts[today_workout_index]
-
 yesterday_workout = yesterday_candidate_workouts[yesterday_workout_index]
 
 puts "TODAY'S WORKOUT:"
 pp today_workout
 puts "YESTERDAY'S WORKOUT:"
 pp yesterday_workout
-
 
 url = url.gsub("https://", "")
 parts = url.split("/")
@@ -163,45 +161,35 @@ if workouts["body"].include?(workout_entry) || workouts["common"].include?(worko
   exit
 end
 
-# if it is a body workout, add it to the body workouts list after the workout at body_workout_index
+# if it is a body workout, add it to the body workouts list
 if final_equipment == "body"
-  workouts["body"].insert(body_workout_index + 1, workout_entry)
-  puts "    >> Added new body workout at index #{body_workout_index + 1}"
+  workouts["body"] << workout_entry
+  puts "    >> Added new body workout}"
 end
 
-# if it is a common workout, add it to the common workouts list after the workout at common_workout_index
+# if it is a common workout, add it to the common workouts list
 if final_equipment == "common"
-  workouts["common"].insert(common_workout_index + 1, workout_entry)
-  puts "    >> Added new common workout at index #{common_workout_index + 1}"
+  workouts["common"] << workout_entry
+  puts "    >> Added new common workout"
 end
+
+
+# randomize the order of the workouts
+workouts["body"].shuffle!
+workouts["common"].shuffle!
+
+# redetermine the today and yesterday workout indices
+today_workout_index = today_day_diff % today_candidate_workouts.length
+yesterday_workout_index = yesterday_day_diff % yesterday_candidate_workouts.length
+
+# put the today_workout at the new today_workout_index
+workouts[today_workout_equipment][today_workout_index] = today_workout
+
+# put the yesterday_workout at the new yesterday_workout_index
+workouts[yesterday_workout_equipment][yesterday_workout_index] = yesterday_workout
+
 
 # write the updated workouts to the file
 File.write(File.join(script_dir, "..", "assets/data/workouts.json"), JSON.pretty_generate({ "active" => {}, "creators" => creators, "workouts" => workouts }))
 puts "    >> Updated workouts.json"
-exit
 
-access_token = "4cbe7e8f2126bd02aedbec78e40b34aa"
-workout = {
-  "source_kind": "youtube",
-  "post_slug": post_slug,
-  "equipment": final_equipment,
-  "channel_id": channel_id,
-  "channel_name": channel_name,
-}
-puts workout.to_json
-
-# HTTParty post
-options = {
-  #method: "POST",
-  body: { workout: workout }.to_json,
-  headers: {
-    'Accept': "application/json",
-    'Content-Type': "application/json",
-    'token_type': "bearer",
-    'access_token': access_token,
-  },
-}
-
-response = HTTParty.post("https://api.verkout.com/workouts", options)
-puts response
-puts "---"
