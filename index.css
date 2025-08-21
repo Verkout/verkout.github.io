@@ -1146,6 +1146,10 @@ video {
     padding-bottom: 3rem;
   }
 
+  .md\:text-left {
+    text-align: left;
+  }
+
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
