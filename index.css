@@ -561,6 +561,10 @@ video {
   pointer-events: auto;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .fixed {
   position: fixed;
 }
@@ -584,6 +588,10 @@ video {
   top: 0px;
 }
 
+.top-6 {
+  top: 1.5rem;
+}
+
 .top-24 {
   top: 6rem;
 }
@@ -596,6 +604,10 @@ video {
   right: 0px;
 }
 
+.right-6 {
+  right: 1.5rem;
+}
+
 .right-8 {
   right: 2rem;
 }
@@ -606,10 +618,6 @@ video {
 
 .left-0 {
   left: 0px;
-}
-
-.z-10 {
-  z-index: 10;
 }
 
 .z-50 {
@@ -669,8 +677,8 @@ video {
   height: 2rem;
 }
 
-.h-14 {
-  height: 3.5rem;
+.h-12 {
+  height: 3rem;
 }
 
 .h-full {
@@ -685,8 +693,8 @@ video {
   width: 2rem;
 }
 
-.w-14 {
-  width: 3.5rem;
+.w-12 {
+  width: 3rem;
 }
 
 .w-80 {
@@ -967,6 +975,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl {
